@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+	margin:0px;
+	padding: 0px;
+    background: #F8F8FF
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+.app-paper{
+    max-width: 300px;
+    width: 100%;
+    background: lightpink;
+    border-radius: 5px;
+    box-shadow: 0px 5px 12px -6px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+.app-paper:before{
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: 5%;
+    width: 90%;
+    height: 30px;
+    background: rgba(0,0,0,0.35);
+    border-radius: 50%;
+    filter: blur(10px);
+}
+.paper-title{
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.hidebx{
+    display: none;
+}
+
+.app-paper form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.lbl-radio{
+    text-align: center;
+    box-shadow: 0px 4px 12px -4px rgba(0,0,0,0.35);
+    padding: 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.display-box .size{
+    font-weight: 600;
+    margin-bottom: 5px;
+}

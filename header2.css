@@ -1,0 +1,32 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color:#F8F8FF;
+	overflow: hidden;
+}
+
+header{
+    width: 100vw;
+    height: 50px;
+    border-bottom: #4863A0;
+}
+
+header .inner{
+    width: 50%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+header .logo div{
+    height: 100%;
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: middle;
+}
